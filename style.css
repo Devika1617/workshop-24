@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    justify-content:  center;
+ align-items: center;
+ padding-top: 200px;
+   background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30px;
+}
+  
+  body{
+         background-color: rgb(109, 84, 84);
+  } 
+ 
+
+.icon1 {
+    width: 230px;
+    height: 195px;
+    margin: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCY4P3AJ_yZO5UMy1TR1MYhYYxwCeQT8Gw4w&s");
+    background-size: cover;
+    transition: background-image 5s ease-in-out;
+    border-radius: 50%;
+
+    
+}
+
+.icon1:hover {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkF8dc5Huhb3LPZhiMnnoJYbnaO97FZIlb-A&s");
+}
+.content{
+
+   
+    padding: 20px;
+     position: absolute;
+     left:50%;
+     bottom: 100px;
+     justify-content: center;
+     animation: move 1.5s forwards;
+     font-size: 30px;
+    
+   } 
+
+   @keyframes move {
+    from {
+      top: -100px;
+
+      
+    }
+    to {
+      top: 20px;
+    }                       
+ }
+ @keyframes content1Div { 
+    0%   {transform: scale(1)  rotate(0deg);}
+    25%  {transform: scale(2) rotate(360deg);}
+    50%  {transform: scale(.5) rotate(360deg);}
+    100% {transform: scale(1) rotate(360deg);}
+}
+
+
+.content1{
+    text-align: center;
+    font-size: 25px;
+    animation-direction: alternate;
+    animation: rotation;
+    animation: content1Div 8s alternate ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+
+.icon2 {
+    width: 230px;
+    height: 195px;
+    margin: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeN7icsRcocXKrPXIJtYcG1xM3X19UomgUhQ&s");
+    background-size: cover;
+    transition: background-image 5s ease-in-out;
+    border-radius: 50%;
+    
+}
+    .icon2:hover {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkF8dc5Huhb3LPZhiMnnoJYbnaO97FZIlb-A&s");
+    }
+    .icon3{
+        width: 230px;
+        height: 195px;
+        margin: 50px;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWnRnSY2gvjRCUrbK9M2SSvYI9rouXP8Kepw&s");
+        background-size: cover;
+        transition: background-image 5s ease-in-out;
+        border-radius: 50%;
+    }
+    
+    
+    
+    
+    .icon3:hover {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkF8dc5Huhb3LPZhiMnnoJYbnaO97FZIlb-A&s");
+    }
